@@ -4,8 +4,7 @@ public final class Author {
     private int id;
     private String firstName;
     private String lastName;
-    private String nationality;
-    private int birthYear;
+
 
     public int getId() {
         return id;
@@ -31,19 +30,4 @@ public final class Author {
         lastName=value;
     }
 
-    public String getNationality(){
-        return nationality;
-    }
-
-    public void setNationality(String value){
-        nationality=value;
-    }
-
-    public int getBirthYear(){
-        return birthYear;
-    }
-
-    public void setBirthYear(int value) {
-        birthYear = value;
-    }
 }
